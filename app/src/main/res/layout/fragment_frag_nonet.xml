@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8BC34A"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<!--//điền thông tin cá nhân vào đây-->
+    <ImageView
+        android:id="@+id/imv"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Lê Thị Thuý _PH35992"
+        />
+
+    <TextView
+        android:id="@+id/tv_Email"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : thuyltph35992@fpl.edu.vn"
+        />
+
+    <TextView
+        android:id="@+id/tv_Lop"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp : MD18303"
+        />
+    <TextView
+        android:id="@+id/tv_ngaythi"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày thi : ca 1 - thứ 3/12/12/2023"
+        />
+</LinearLayout>

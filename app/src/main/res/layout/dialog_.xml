@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm sinh viên"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/tv_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vui lòng nhập mã"
+        android:id="@+id/edt_ma"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vui lòng nhập tên"
+        android:id="@+id/edt_ten"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_email"
+        android:hint="Vui lòng nhập email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_vang"
+        android:hint="Vui lòng nhập tổng buổi vắng"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:id="@+id/btn_them"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Huỷ"
+        android:id="@+id/btn_huy"
+        />
+</LinearLayout>
